@@ -1,18 +1,20 @@
+import React, {Components} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { topNav } from './Components/Home_Page/topNav';
-
-
-
-
+import { TopNav } from './topNav';
+import {BalanceCard} from './balanceCard';
+import { SocialCardSection } from './SocialCardSection';
+import { Interface } from './Interface';
+import { Cashout } from './Cashout';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-          Learn React
-      </header>
-      <topNav />
+       <TopNav />
+        <BalanceCard />
+        <Interface />
+        <Cashout />
+        <SocialCardSection />
     </div>
   );
 }

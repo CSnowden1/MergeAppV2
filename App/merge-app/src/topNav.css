@@ -1,0 +1,32 @@
+
+
+.nav-box {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -5rem;
+}
+
+.social-section {
+
+    margin-bottom: 3rem;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.social-card-box {
+    background: white;
+    height: 24rem;
+    width: 20rem;
+    border: solid black .25rem;
+    border-radius: 2rem;
+    padding: auto;
+    font-size: larger;
+}
+

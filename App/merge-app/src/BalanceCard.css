@@ -1,0 +1,50 @@
+.card-box {
+    border: black;
+    color: white;
+    width: 40rem;
+    background: #292929;
+    margin: 10rem;
+    height: 20rem;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+
+
+
+.balance-box, h2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 2rem;
+    font-size: 3rem;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+
+.interface-box {
+    display: flex;
+    margin-top: -3rem;
+    margin-bottom: 5rem;;
+}
+
+.interface-btn-box {
+    display: flex;
+    align-content: center;
+    justify-items: center;
+    border: solid black;
+    width: 20rem;
+    height: 7rem;
+}
+
+.cashout-box {
+    width: 40rem;
+    height: 10rem;
+    background: #2B3854;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
